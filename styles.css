@@ -1,0 +1,107 @@
+body {
+  background: url(cool.png) no-repeat;
+  /* Keep the inherited background full size. */
+  /*background-attachment: fixed; 
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;*/
+  font-family: "Glass Antiqua", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  border-radius: 10px; /* Rounded corners for the container */
+  padding: 20px;
+  margin: 25px;
+  width: calc(30% - 40px); /* One-third of the viewport width minus margin and padding */
+  float: left;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+  text-align: center; /* Center align text */
+  color: #fff; /* Text color */
+height: 550px;
+margin-top: 100px;
+}
+
+  /* Clear float to prevent container overlap */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  input[type="text"] {
+    min-width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #AD88C6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  button:hover {
+    background-color: #E1AFD1;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    
+  }
+  
+
+  
+  #text-input {
+    width: 99%;
+    height: 50px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+
+  }
+
+  img {
+    margin: 30px;
+  }
+
+  #result {
+    font-size: 50px;
+    margin: 20px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0 0 10px #FFFFFF;
+  }
+
+  .big_letters {
+    font-size: 60px;
+  }
+
+  ::placeholder {
+    text-align: center; 
+ }
